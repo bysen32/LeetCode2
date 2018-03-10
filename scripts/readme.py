@@ -132,28 +132,28 @@ class TableInform:
                             complete_info.solved['python'] += 1
                             # update problem inform
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item.replace(' ', '%20'))
-                            folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            folder_url = folder_url + '/' + item.replace(' ', '%20')
+                            folder_url = Config.github_leetcode_url + '/' + folder_url
                             # print(folder_url)
                             self.table_item[folder[:3]].python = '[Python]({})'.format(folder_url)
                         elif item.endswith('.java'):
                             complete_info.solved['java'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
-                            folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            folder_url = folder_url + '/' + item.replace(' ', '%20')
+                            folder_url = Config.github_leetcode_url + '/' + folder_url
                             self.table_item[folder[:3]].java = '[Java]({})'.format(folder_url)
                         elif item.endswith('.cpp'):
                             complete_info.solved['c++'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
-                            folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            folder_url = folder_url + '/' + item.replace(' ', '%20')
+                            folder_url = Config.github_leetcode_url + '/' + folder_url
                             # print(folder_url)
                             self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
                         elif item.endswith('.js'):
                             complete_info.solved['javascript'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
-                            folder_url = os.path.join(Config.github_leetcode_url, folder_url)
+                            folder_url = folder_url + '/' + item.replace(' ', '%20')
+                            folder_url = Config.github_leetcode_url + '/' + folder_url
                             # print(folder_url)
                             self.table_item[folder[:3]].javascript = '[JavaScript]({})'.format(folder_url)
         readme = Readme(complete_info.total,
@@ -246,12 +246,10 @@ class Readme:
                     'id': item.id_,
                     'title': '[{}]({}) {}'.format(item.title, item.url, _lock),
                     'difficulty': item.difficulty,
-                    'js': item.javascript if item.javascript else 'To Do',
                     'python': item.python if item.python else 'To Do',
                     'c++': item.c_plus_plus if item.c_plus_plus else 'To Do',
-                    'java': item.java if item.java else 'To Do'
                 }
-                line = '|{id}|{title}|{difficulty}|{js}|{python}|{c++}|{java}|\n'.format(**data)
+                line = '|{id}|{title}|{difficulty}|{python}|{c++}|\n'.format(**data)
                 f.write(line)
             print('README.md was created.....')
 
