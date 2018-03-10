@@ -1,10 +1,10 @@
 # Keep thinking, keep alive
-Until 2018-03-10 15:05:42, I have solved **1** / **710** problems while **132** are still locked.
+Until 2018-03-10 17:18:32, I have solved **4** / **710** problems while **132** are still locked.
 
 Completion statistic: 
 1. JavaScript: 0 
 2. Python: 0
-3. C++: 1
+3. C++: 4
 4. Java: 0
 
 Note: :lock: means you need to buy a book from LeetCode
@@ -136,7 +136,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |121|[Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) |Easy|To Do|To Do|
 |122|[Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/description/) |Easy|To Do|To Do|
 |123|[Best Time to Buy and Sell Stock III](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iii/description/) |Hard|To Do|To Do|
-|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) |Hard|To Do|To Do|
+|124|[Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/description/) |Hard|To Do|[C++](https://github.com/bysen32/LeetCode2/tree/master/leetcode-algorithms/124.%20Binary%20Tree%20Maximum%20Path%20Sum/124.%20Binary%20Tree%20Maximum%20Path%20Sum.cpp)|
 |125|[Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) |Easy|To Do|To Do|
 |126|[Word Ladder II](https://leetcode.com/problems/word-ladder-ii/description/) |Hard|To Do|To Do|
 |127|[Word Ladder](https://leetcode.com/problems/word-ladder/description/) |Medium|To Do|To Do|
@@ -480,7 +480,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |494|[Target Sum](https://leetcode.com/problems/target-sum/description/) |Medium|To Do|To Do|
 |495|[Teemo Attacking](https://leetcode.com/problems/teemo-attacking/description/) |Medium|To Do|To Do|
 |496|[Next Greater Element I](https://leetcode.com/problems/next-greater-element-i/description/) |Easy|To Do|To Do|
-|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/) |Medium|To Do|To Do|
+|498|[Diagonal Traverse](https://leetcode.com/problems/diagonal-traverse/description/) |Medium|To Do|[C++](https://github.com/bysen32/LeetCode2/tree/master/leetcode-algorithms/498.%20Diagonal%20Traverse/498.%20Diagonal%20Traverse.cpp)|
 |499|[The Maze III](https://leetcode.com/problems/the-maze-iii/description/) :lock:|Hard|To Do|To Do|
 |500|[Keyboard Row](https://leetcode.com/problems/keyboard-row/description/) |Easy|To Do|To Do|
 |501|[Find Mode in Binary Search Tree](https://leetcode.com/problems/find-mode-in-binary-search-tree/description/) |Easy|To Do|To Do|
@@ -716,7 +716,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |786|[K-th Smallest Prime Fraction](https://leetcode.com/problems/k-th-smallest-prime-fraction/description/) |Hard|To Do|To Do|
 |787|[Cheapest Flights Within K Stops](https://leetcode.com/problems/cheapest-flights-within-k-stops/description/) |Medium|To Do|To Do|
 |788|[Rotated Digits](https://leetcode.com/problems/rotated-digits/description/) |Easy|To Do|To Do|
-|789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/description/) |Medium|To Do|To Do|
+|789|[Escape The Ghosts](https://leetcode.com/problems/escape-the-ghosts/description/) |Medium|To Do|[C++](https://github.com/bysen32/LeetCode2/tree/master/leetcode-algorithms/789.%20Escape%20The%20Ghosts/789.%20Escape%20The%20Ghosts.cpp)|
 |790|[Domino and Tromino Tiling](https://leetcode.com/problems/domino-and-tromino-tiling/description/) |Medium|To Do|To Do|
 |791|[Custom Sort String](https://leetcode.com/problems/custom-sort-string/description/) |Medium|To Do|To Do|
 |792|[Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/description/) |Medium|To Do|To Do|
