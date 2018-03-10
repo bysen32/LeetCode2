@@ -1,10 +1,10 @@
 # Keep thinking, keep alive
-Until 2018-03-10 17:18:32, I have solved **4** / **710** problems while **132** are still locked.
+Until 2018-03-10 23:53:12, I have solved **5** / **710** problems while **132** are still locked.
 
 Completion statistic: 
 1. JavaScript: 0 
 2. Python: 0
-3. C++: 4
+3. C++: 5
 4. Java: 0
 
 Note: :lock: means you need to buy a book from LeetCode
@@ -630,7 +630,7 @@ Note: :lock: means you need to buy a book from LeetCode
 |689|[Maximum Sum of 3 Non-Overlapping Subarrays](https://leetcode.com/problems/maximum-sum-of-3-non-overlapping-subarrays/description/) |Hard|To Do|To Do|
 |690|[Employee Importance](https://leetcode.com/problems/employee-importance/description/) |Easy|To Do|To Do|
 |691|[Stickers to Spell Word](https://leetcode.com/problems/stickers-to-spell-word/description/) |Hard|To Do|To Do|
-|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/) |Medium|To Do|To Do|
+|692|[Top K Frequent Words](https://leetcode.com/problems/top-k-frequent-words/description/) |Medium|To Do|[C++](https://github.com/bysen32/LeetCode2/tree/master/leetcode-algorithms/692.%20Top%20K%20Frequent%20Words/692.%20Top%20K%20Frequent%20Words.cpp)|
 |693|[Binary Number with Alternating Bits](https://leetcode.com/problems/binary-number-with-alternating-bits/description/) |Easy|To Do|To Do|
 |694|[Number of Distinct Islands](https://leetcode.com/problems/number-of-distinct-islands/description/) :lock:|Medium|To Do|To Do|
 |695|[Max Area of Island](https://leetcode.com/problems/max-area-of-island/description/) |Easy|To Do|To Do|
