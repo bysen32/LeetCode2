@@ -13,11 +13,11 @@ class Config:
     １．　本地仓库的的路径
     ２．　github中的仓库leetcode解法的路径
     """
-    local_path = '/home/yuan/PycharmProjects/algorithms_and_oj'
+    local_path = 'H:/WORKSPACE/LeetCode2'
     # solution of leetcode
-    github_leetcode_url = 'https://github.com/hey-bruce/algorithms_and_oj/blob/master/leetcode-algorithms/'
+    github_leetcode_url = 'https://github.com/bysen32/LeetCode2/tree/master/problems/'
     # solution of pat,　暂时还没写
-    github_pat_url = 'https://github.com/hey-bruce/algorithms_and_oj/blob/master/pat-algorithms/'
+    # github_pat_url = 'https://github.com/hey-bruce/algorithms_and_oj/blob/master/pat-algorithms/'
     leetcode_url = 'https://leetcode.com/problems/'
 
 
@@ -67,6 +67,7 @@ class TableInform:
         # we should look the response data carefully to find law
         # return byte. content type is byte
         content = requests.get('https://leetcode.com/api/problems/algorithms/').content
+        content = content.decode('utf-8')
         # get all problems
         self.questions = json.loads(content)['stat_status_pairs']
         # print(self.questions)
@@ -99,6 +100,7 @@ class TableInform:
             print('creating {} algorithms....'.format(oj_name))
             os.mkdir(oj_algorithms)
         for item in self.table_item.values():
+            item.title = item.title.replace("?", "")
             question_folder_name = oj_algorithms + '/' + item.id_ + '. ' + item.title
             if not os.path.exists(question_folder_name):
                 print(question_folder_name + 'is not exits, create it now....')
