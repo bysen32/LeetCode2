@@ -132,27 +132,27 @@ class TableInform:
                             complete_info.solved['python'] += 1
                             # update problem inform
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item)
+                            folder_url = os.path.join(folder_url, item.replace(' ', '%20'))
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
                             # print(folder_url)
                             self.table_item[folder[:3]].python = '[Python]({})'.format(folder_url)
                         elif item.endswith('.java'):
                             complete_info.solved['java'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item)
+                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
                             self.table_item[folder[:3]].java = '[Java]({})'.format(folder_url)
                         elif item.endswith('.cpp'):
                             complete_info.solved['c++'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item)
+                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
                             # print(folder_url)
                             self.table_item[folder[:3]].c_plus_plus = '[C++]({})'.format(folder_url)
                         elif item.endswith('.js'):
                             complete_info.solved['javascript'] += 1
                             folder_url = folder.replace(' ', "%20")
-                            folder_url = os.path.join(folder_url, item)
+                            folder_url = os.path.join(folder_url,  item.replace(' ', '%20'))
                             folder_url = os.path.join(Config.github_leetcode_url, folder_url)
                             # print(folder_url)
                             self.table_item[folder[:3]].javascript = '[JavaScript]({})'.format(folder_url)
